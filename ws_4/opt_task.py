@@ -12,14 +12,14 @@ I will comment the heck out of this so it has a clear understanding.
 
 """
 
-import cv2			# OpenCV library
+import cv2		# OpenCV library
 import numpy as np 	# Used for image processing/matrices
 import sys			
 import rospy
 
 from cv_bridge import CvBridge, CvBridgeError	# Bridge (for converting ROS image to OpenCV) and error log
 from geometry_msgs.msg import Twist	
-from numpy import mean							# Can be used to find the average pixel value in an image 
+from numpy import mean				# Can be used to find the average pixel value in an image 
 from std_msgs.msg import String
 from sensor_msgs.msg import Image
 
