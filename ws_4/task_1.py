@@ -84,22 +84,22 @@ class ws4_task1():
 		w_r = 0.0 # right wheel
 
 		# multiply the left/right wheel by the radius of the TB2 wheel. This gives the circumference.
-		c_l = wheel_radius * w_l 				# left wheel circumference
-		c_r = wheel_radius * w_r 				# right wheel circumference
-		v = (c_l + c_r) / 2						# The sum of both, left and right, wheels gives the linear velocity (v). Divded by 2 (per wheel)
+		c_l = wheel_radius * w_l 		# left wheel circumference
+		c_r = wheel_radius * w_r 		# right wheel circumference
+		v = (c_l + c_r) / 2			# The sum of both, left and right, wheels gives the linear velocity (v). Divded by 2 (per wheel)
 		a = (c_r - c_l) / (2 * robot_radius)	# The angular velocity (a) is the difference between the right and left wheel. Multiplied by the robot radius (it turns in rad/s) for each wheel.
 
 		return (v, a) # return the output for linear and angular velocities.
 
 		"""
-		__________________________________________
-		|	   FORWARD		|		INVERSE		 |
-		__________________________________________
+		__________________________________________________
+		|	 FORWARD	|	INVERSE		 |
+		__________________________________________________
 		|  a. wheel_values	|  c. lin & ang vel	 |
-		|  b. circumference |  b. circumference  |
-		|  c. lin & ang vel	|  a. wheel_values   |
-		|					|					 |
-		__________________________________________
+		|  b. circumference 	|  b. circumference      |
+		|  c. lin & ang vel	|  a. wheel_values       |
+		|			|			 |
+		__________________________________________________
 
 		"""
 
@@ -126,7 +126,7 @@ class ws4_task1():
 		(v, a) = self.forward_kinematics(msg.data, 0) # use data from forward kinematics to populate values for v (linear) and a (angular)
 		print("v = %f, a = %f" % (v, a)) # print lin and ang velocity as floats
 
-		left_cmd = Twist() 		# instance of twist, then apply v and a to velocity commands
+		left_cmd = Twist() 	# instance of twist, then apply v and a to velocity commands
 		left_cmd.linear.x = v 	# linear velocity, produced from forward kinematics
 		left_cmd.angular.z = a 	# angular velocity, produced from forward kinematics
 
