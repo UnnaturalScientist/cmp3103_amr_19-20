@@ -5,7 +5,7 @@ Go to this repo for every ROS book known to man (That is decent):
 
 https://github.com/StevenShiChina/books
 
-You may know The Construct (Tutorials for ROS). There channel is great if you have not see it...
+You may know The Construct (Tutorials for ROS). The channel is great if you have not see it...
 
 https://www.youtube.com/channel/UCt6Lag-vv25fTX3e11mVY1Q
 
