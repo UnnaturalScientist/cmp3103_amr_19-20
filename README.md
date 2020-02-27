@@ -9,6 +9,6 @@ You may know The Construct (Tutorials for ROS). The channel is great if you have
 
 https://www.youtube.com/channel/UCt6Lag-vv25fTX3e11mVY1Q
 
-...as is their Bitbucket...
+...as is their Bitbucket. Good to use alongside tutorials.
 
 https://bitbucket.org/%7B33781e18-852e-47c2-af39-759234f1f214%7D/
