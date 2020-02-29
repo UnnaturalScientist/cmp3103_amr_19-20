@@ -13,10 +13,6 @@ Also, found Probabilistic Robotics as a PDF:
 
 https://docs.ufpr.br/~danielsantos/ProbabilisticRobotics.pdf
 
-And this book for Turtlebot3, but some of the concepts may be perfectly applicable to TB2:
-
-https://www.pishrobot.com/wp-content/uploads/2018/02/ROS-robot-programming-book-by-turtlebo3-developers-EN.pdf
-
 You may know The Construct (Tutorials for ROS). The channel is great if you have not see it...
 
 https://www.youtube.com/channel/UCt6Lag-vv25fTX3e11mVY1Q
