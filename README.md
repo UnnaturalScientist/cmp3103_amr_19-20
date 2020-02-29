@@ -13,6 +13,10 @@ Also, found Probabilistic Robotics as a PDF:
 
 https://docs.ufpr.br/~danielsantos/ProbabilisticRobotics.pdf
 
+And Autonomous Mobile Robotics:
+
+http://home.deib.polimi.it/gini/robot/docs/siegwart.pdf
+
 You may know The Construct (Tutorials for ROS). The channel is great if you have not see it...
 
 https://www.youtube.com/channel/UCt6Lag-vv25fTX3e11mVY1Q
