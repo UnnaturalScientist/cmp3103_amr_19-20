@@ -31,5 +31,5 @@ class CommandVelocity():
 if __name__ == '__main__':
 	rospy.init_node("command_velocity")
 	cv = CommandVelocity()
-	cv.send_velocities() # Calling the function
+	cv.send_velocities() # Calling the method
 	rospy.spin()
