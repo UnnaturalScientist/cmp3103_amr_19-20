@@ -24,3 +24,7 @@ https://www.youtube.com/channel/UCt6Lag-vv25fTX3e11mVY1Q
 ...as is their Bitbucket. Good to use alongside tutorials.
 
 https://bitbucket.org/%7B33781e18-852e-47c2-af39-759234f1f214%7D/
+
+What I believe influence this project:
+
+https://www.youtube.com/watch?v=76blllun09Q
