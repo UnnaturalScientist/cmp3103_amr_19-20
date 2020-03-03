@@ -23,7 +23,7 @@ class colorContour():
 		# queue size 10, because...
 		self.pub = rospy.Publisher("/result_topic", String, queue_size=10)
 		# basically:
-		# [class instance = client library.node subscription("topic", ROS Message Type, call for function)]
+		# [class instance = client library.node subscription("topic", ROS Message Type, call for method)]
 		self.sub = rospy.Subscriber("/camera/rgb/image_raw", Image, self.image_callback)
 		rospy.Timer(rospy.Duration(0.03), self.open_windows) # timer for displaying windows
 
