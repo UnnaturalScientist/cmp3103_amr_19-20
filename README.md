@@ -1,6 +1,10 @@
 # cmp3103_amr_19-20
 CMP3103: Autonomous Mobile Robotics - Workshop Tasks
 
+List of ROS Packages
+
+http://repositories.ros.org/status_page/ros_kinetic_default.html
+
 WS4 code (opt task) in action:
 
 https://youtu.be/Fvym6sQEhFg
