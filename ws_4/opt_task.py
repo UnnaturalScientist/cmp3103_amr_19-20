@@ -8,7 +8,7 @@ I will comment the heck out of this so it has a clear understanding.
 
 1. Terminal 1: roslaunch uol_turtlebot_simulator simple.launch
 2. Terminal 2: run your python code
-3. Drop coloured objects. I recommend "Textured shapes". Also, it should find the green we need for the assessment, that is helpful too.
+3. Drop coloured objects. I recommend "Textured shapes".
 
 """
 
