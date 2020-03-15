@@ -105,30 +105,6 @@ class pursue_colour():
 		
 		return masked
 
-
-		"""
-		Example 1: Get the mean
-		print np.mean(hsv[:, :, 0]) #H?
-				print np.mean(hsv[:, :, 1]) #S?
-				print np.mean(hsv[:, :, 2]) #V?
-		print mean(hsv)
-		#-----------------------------------------
-		Example 2: Get the mean
-		# the shape gives you the dimensions
-		h = img3.shape[0]
-		w = img3.shape[1]
-		# loop over the image, pixel by pixel
-		count = 0
-		# a slow way to iterate over the pixels
-		for y in range(0, h):
-			for x in range(0, w):
-			
-		# threshold the pixel
-				if img3[y, x] > 0:
-					count += 1
-		print('count edge pixels: %d' % count)
-		"""
-
 if __name__ == '__main__':
 	cv2.startWindowThread()
 	pursue_colour()
